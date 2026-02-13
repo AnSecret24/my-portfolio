@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import ThemeToggle from './ThemeToggle';
 
 export default function Navbar() {
   return (
@@ -8,6 +9,7 @@ export default function Navbar() {
         <Link href="#about" className="hover:text-blue-600">Giới thiệu</Link>
         <Link href="#projects" className="hover:text-blue-600">Dự án</Link>
         <Link href="#contact" className="hover:text-blue-600">Liên hệ</Link>
+        <ThemeToggle />
       </div>
     </nav>
   );
